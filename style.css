@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./village.jpg");
+    background-size: cover; /* resizing the background image */
+    background-position: initial; /* sets the starting position of a background image */
+    display: flex; /* give the container the ability to alter its items’ width/height (and order) */
+    flex-direction: column;
+    align-items: center; /* specifies the default alignment for items inside the flexible container */
+    min-height: 50vh;
+    font-family: 'Quicksand', sans-serif;;
+    margin: 0;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* aligns the flexible container's items*/
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
